@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\deps\getopt.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\deps\tinycthread.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\examples\boing.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\examples\gears.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\examples\heightmap.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\examples\offscreen.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\examples\particles.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\examples\sharing.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\examples\splitview.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\examples\triangle-opengl.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\examples\triangle-opengles.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\examples\wave.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\examples\windows.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\cocoa_time.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\context.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\egl_context.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\glx_context.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\init.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\input.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\linux_joystick.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\monitor.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\null_init.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\null_joystick.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\null_monitor.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\null_window.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\osmesa_context.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\platform.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\posix_module.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\posix_poll.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\posix_thread.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\posix_time.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\vulkan.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\wgl_context.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\win32_init.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\win32_joystick.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\win32_module.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\win32_monitor.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\win32_thread.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\win32_time.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\win32_window.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\window.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\wl_init.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\wl_monitor.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\wl_window.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\x11_init.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\x11_monitor.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\x11_window.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\xkb_unicode.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\allocator.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\clipboard.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\cursor.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\empty.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\events.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\gamma.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\glfwinfo.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\icon.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\iconify.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\inputlag.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\joysticks.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\monitors.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\msaa.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\reopen.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\tearing.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\threads.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\timeout.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\title.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\triangle-vulkan.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\tests\window.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\deps\getopt.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\deps\glad\gl.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\deps\glad\gles2.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\deps\glad\vulkan.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\deps\linmath.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\deps\mingw\dinput.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\deps\mingw\xinput.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\deps\mingw\_mingw_dxhelper.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\deps\nuklear.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\deps\nuklear_glfw_gl2.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\deps\stb_image_write.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\deps\tinycthread.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\include\GLFW\glfw3.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\include\GLFW\glfw3native.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\cocoa_joystick.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\cocoa_platform.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\cocoa_time.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\internal.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\linux_joystick.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\mappings.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\null_joystick.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\null_platform.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\platform.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\posix_poll.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\posix_thread.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\posix_time.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\win32_joystick.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\win32_platform.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\win32_thread.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\win32_time.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\wl_platform.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\x11_platform.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\src\xkb_unicode.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\footer.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\header.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\build_8md.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\build_guide.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\compat_8md.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\compat_guide.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\compile_8md.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\compile_guide.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\context_8md.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\context_guide.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\deprecated.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\dir_13577e2d8b9423099662de029791bd7d.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\dir_7f92719a7fe62e5b064f87d7a3c220b1.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\dir_a788ef6c2b1e5b367804e0b6ccfd6f11.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\dir_b11153cd0f4fd04a7564cc166f482635.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\files.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\glfw3native_8h.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\glfw3native_8h_source.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\glfw3_8h.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\glfw3_8h_source.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__buttons.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__context.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__errors.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__gamepad__axes.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__gamepad__buttons.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__hat__state.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__init.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__input.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__joysticks.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__keys.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__mods.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__monitor.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__native.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__shapes.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__vulkan.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\group__window.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\index.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\input_8md.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\input_guide.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\internals_guide.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\internal_8md.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\intro_8md.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\intro_guide.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\main_8md.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\monitor_8md.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\monitor_guide.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\moving_8md.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\moving_guide.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\news.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\news_8md.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\pages.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\quick_8md.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\quick_guide.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\struct_g_l_f_wallocator.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\struct_g_l_f_wgamepadstate.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\struct_g_l_f_wgammaramp.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\struct_g_l_f_wimage.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\struct_g_l_f_wvidmode.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\topics.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\vulkan_8md.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\vulkan_guide.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\window_8md.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\docs\html\window_guide.html">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\..\Desktop\Potfolio\glfw-3.4\glfw-3.4\examples\glfw.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
