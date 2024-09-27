@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\main.cpp",
+              "RelativeDocumentMoniker": "LumiDyn\\main.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\main.cpp",
+              "RelativeToolTip": "LumiDyn\\main.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-13T12:04:51.543Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
