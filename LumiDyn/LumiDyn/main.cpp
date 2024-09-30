@@ -1,6 +1,14 @@
-#include "EngineCore.h"
+#include "AppBase.h"
 
+#include <iostream>
+#include <stdexcept>
 
 int main() {
-    return LumiDynEngineCore::RunApp();
+	LumiDynEngine::AppBase app{};
+
+	if (!app.Run()) {
+		std::cout << "Application Run failed." << std::endl;
+	}
+
+
 }

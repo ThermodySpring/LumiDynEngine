@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\EngineCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\EngineCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\LDEWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\LDEWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\EngineCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\EngineCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\LDEWIndow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\LDEWIndow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\Dependencies\\GLFW\\include\\GLFW\\glfw3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LumiDyn\\Dependencies\\GLFW\\include\\GLFW\\glfw3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\AppBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\AppBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\AppBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\AppBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +30,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppBase.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\AppBase.cpp",
+              "RelativeDocumentMoniker": "LumiDyn\\AppBase.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\AppBase.cpp",
+              "RelativeToolTip": "LumiDyn\\AppBase.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-29T10:38:11.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppBase.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\AppBase.h",
+              "RelativeDocumentMoniker": "LumiDyn\\AppBase.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\AppBase.h",
+              "RelativeToolTip": "LumiDyn\\AppBase.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-29T09:55:37.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EngineCore.h",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\EngineCore.h",
-              "RelativeDocumentMoniker": "LumiDyn\\EngineCore.h",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\EngineCore.h",
-              "RelativeToolTip": "LumiDyn\\EngineCore.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
+              "Title": "LDEWIndow.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\LDEWIndow.h",
+              "RelativeDocumentMoniker": "LumiDyn\\LDEWIndow.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\LDEWIndow.h",
+              "RelativeToolTip": "LumiDyn\\LDEWIndow.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowB4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-27T06:05:00.659Z",
               "EditorCaption": ""
@@ -49,7 +79,7 @@
               "RelativeDocumentMoniker": "LumiDyn\\main.cpp",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\main.cpp",
               "RelativeToolTip": "LumiDyn\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-27T05:48:50.886Z",
               "EditorCaption": ""
@@ -57,27 +87,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EngineCore.cpp",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\EngineCore.cpp",
-              "RelativeDocumentMoniker": "LumiDyn\\EngineCore.cpp",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\EngineCore.cpp",
-              "RelativeToolTip": "LumiDyn\\EngineCore.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Title": "LDEWindow.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\LDEWindow.cpp",
+              "RelativeDocumentMoniker": "LumiDyn\\LDEWindow.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\LDEWindow.cpp",
+              "RelativeToolTip": "LumiDyn\\LDEWindow.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-27T05:16:04.531Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "glfw3.h",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\Dependencies\\GLFW\\include\\GLFW\\glfw3.h",
-              "RelativeDocumentMoniker": "LumiDyn\\Dependencies\\GLFW\\include\\GLFW\\glfw3.h",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\Dependencies\\GLFW\\include\\GLFW\\glfw3.h",
-              "RelativeToolTip": "LumiDyn\\Dependencies\\GLFW\\include\\GLFW\\glfw3.h",
-              "ViewState": "AgIAAJYMAAAAAAAAAAAswKIMAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-27T04:59:33.174Z"
             }
           ]
         }

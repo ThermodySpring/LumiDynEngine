@@ -18,12 +18,18 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="EngineCore.cpp">
+    <ClCompile Include="LDEWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AppBase.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EngineCore.h">
+    <ClInclude Include="LDEWIndow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
