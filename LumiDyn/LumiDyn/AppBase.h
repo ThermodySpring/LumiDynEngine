@@ -2,11 +2,13 @@
 
 #include "LDEWindow.h"
 
+
 namespace LumiDynEngine {
 	
 	class AppBase {
 	private:
-		LDEWindow m_window{ WIDTH, HEIGHT, "Base Window"};
+		LDEWindow m_window{ WIDTH, HEIGHT, "Base Window" };
+		VkInstance instance;
 
 	public:
 		static constexpr int WIDTH = 800;
@@ -14,6 +16,13 @@ namespace LumiDynEngine {
 
 		int Run();
 
+	protected:
+		bool InitVulkan();
+		void MainLoop();
+		void CleanUp();
+		void CreateInstance();
+		void cleanupInstance();
+		
 
 
 	};

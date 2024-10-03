@@ -10,5 +10,5 @@ int main() {
 		std::cout << "Application Run failed." << std::endl;
 	}
 
-
+	return EXIT_SUCCESS;
 }
