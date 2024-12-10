@@ -11,7 +11,6 @@ namespace LumiDynEngine {
 
         size_t fileSize = (size_t)file.tellg();
         std::vector<char> buffer(fileSize);
-
         file.seekg(0);
         file.read(buffer.data(), fileSize);
 

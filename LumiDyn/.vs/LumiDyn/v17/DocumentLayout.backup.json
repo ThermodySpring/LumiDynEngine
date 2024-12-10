@@ -7,24 +7,16 @@
       "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\AppBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\AppBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\AppBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\FileUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\FileUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\FileUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\FileUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\AppBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\AppBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\Base.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\Base.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\Base.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|solutionrelative:LumiDyn\\Base.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{042EB301-30E4-4C6F-BE3E-24784098BCA5}|LumiDyn\\LumiDyn.vcxproj|C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -42,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\main.cpp",
               "RelativeDocumentMoniker": "LumiDyn\\main.cpp",
@@ -61,7 +53,7 @@
               "RelativeDocumentMoniker": "LumiDyn\\AppBase.cpp",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\AppBase.cpp",
               "RelativeToolTip": "LumiDyn\\AppBase.cpp",
-              "ViewState": "AgIAADwAAAAAAAAAAAAcwG0AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAUwIEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-29T10:38:11.18Z",
               "IsPinned": true,
@@ -69,65 +61,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FileUtils.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\FileUtils.cpp",
               "RelativeDocumentMoniker": "LumiDyn\\FileUtils.cpp",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\FileUtils.cpp",
               "RelativeToolTip": "LumiDyn\\FileUtils.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-05T07:36:33.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FileUtils.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\FileUtils.h",
               "RelativeDocumentMoniker": "LumiDyn\\FileUtils.h",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\FileUtils.h",
               "RelativeToolTip": "LumiDyn\\FileUtils.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-05T07:35:55.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Base.frag",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\Base.frag",
-              "RelativeDocumentMoniker": "LumiDyn\\Base.frag",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\Base.frag",
-              "RelativeToolTip": "LumiDyn\\Base.frag",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-05T07:23:38.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Base.vert",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\Base.vert",
-              "RelativeDocumentMoniker": "LumiDyn\\Base.vert",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\Base.vert",
-              "RelativeToolTip": "LumiDyn\\Base.vert",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-05T07:22:38.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AppBase.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\AppBase.h",
               "RelativeDocumentMoniker": "LumiDyn\\AppBase.h",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Potfolio\\LumiDynEngine\\LumiDyn\\LumiDyn\\AppBase.h",
               "RelativeToolTip": "LumiDyn\\AppBase.h",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswBAAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwDcAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-29T09:55:37.102Z",
               "EditorCaption": ""
