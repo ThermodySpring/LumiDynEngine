@@ -131,14 +131,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AppBase.cpp" />
-    <ClCompile Include="LDEWindow.cpp" />
+    <ClCompile Include="FileUtils.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppBase.h" />
-    <ClInclude Include="LDEWIndow.h" />
+    <ClInclude Include="FileUtils.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Base.frag" />
+    <None Include="Base.vert" />
     <None Include="simple_shader.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
