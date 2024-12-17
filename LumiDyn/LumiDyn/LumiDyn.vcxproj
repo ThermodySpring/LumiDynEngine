@@ -133,6 +133,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AppBase.cpp" />
+    <ClCompile Include="AppWindow.cpp" />
     <ClCompile Include="FileUtils.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -140,7 +141,7 @@
     <ClInclude Include="AppBase.h" />
     <ClInclude Include="FileUtils.h" />
     <ClInclude Include="VulkanInstance.h" />
-    <ClInclude Include="Window.h" />
+    <ClInclude Include="AppWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Base.frag" />
