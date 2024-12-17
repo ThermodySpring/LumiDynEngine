@@ -15,6 +15,8 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include <map>
+#include <set>
 #include <fstream>
 
 #include "FileUtils.h"
@@ -22,6 +24,10 @@
 
 namespace LumiDynEngine {
 	
+	const std::vector<const char*> deviceExtensions = {
+		VK_KHR_SWAPCHAIN_EXTENSION_NAME
+	};
+
 	class AppBase {
 	public:
 		// window 관련 variable들
@@ -40,21 +46,35 @@ namespace LumiDynEngine {
 
 		// QueueFamily
 		struct QueueFamilyIndices {
-			OPTIONAL
-			optional<uint32_t> graphicsFamily;
+			std::optional<uint32_t> graphicsFamily;
 
-			bool 
+			bool isComplete() {
+				return graphicsFamily.has_value();
+			}
 		};
 		
-		
 		// handler
-		VkQueue presentQueue;
-		
+		VkPhysicalDevice physicalDevice = VK_NULL_HANDLE;
 		VkDevice device;
 
+		VkQueue graphicsQueue;
+		VkQueue presentQueue;
+
+		VkSwapchainKHR swapChain;
+		std::vector<VkImage> swapChainImages;
+		VkFormat swapChainImageFormat;
+		VkExtent2D swapChainExtent;
+
+		struct SwapChainSupportDetails {
+			VkSurfaceCapabilitiesKHR capabilities;
+			std::vector<VkSurfaceFormatKHR> formats;
+			std::vector<VkPresentModeKHR> presentModes;
+		};
+
+
 	public:
-		AppBase();
-		virtual ~AppBase();
+		AppBase(); // constructor
+		virtual ~AppBase(); // desctructor
 		
 		int Run(); // 작동
 
@@ -62,16 +82,25 @@ namespace LumiDynEngine {
 
 	protected:
 
+#pragma region window
+		bool InitVulkan();
+
 		bool InitWindow();
 		bool ShouldClose();
 
-		bool InitVulkan();
+		void CreateInstance();
 		void pickPhysicalDevice();
+		int rateDeviceSuitability(VkPhysicalDevice device);
+		void createLogicalDevice();
 
 		// QueueFamilies
 		QueueFamilyIndices findQueueFamilies(VkPhysicalDevice device);
 
-		void CreateInstance();
+		// SwapChain
+		SwapChainSupportDetails querySwapChainSupport(VkPhysicalDevice device);
+		VkSurfaceFormatKHR chooseSwapSurfaceFormat(const std::vector<VkSurfaceFormatKHR>& availableFormats);
+
+
 
 		// Graphics PipeLine method
 		void createSurface(); // Rendering 이미지를 관리할 객체
@@ -81,11 +110,12 @@ namespace LumiDynEngine {
 
 		void cleanupInstance();
 		void cleanUpSurface();
-		void pickPhysicalDevice();
+
 		bool isDeviceSuitable(VkPhysicalDevice device);
+		bool checkDeviceExtensionSupport(VkPhysicalDevice device);
 
 		
-		void MainLoop();
+		void Update();
 		void CleanUp();
 
 
