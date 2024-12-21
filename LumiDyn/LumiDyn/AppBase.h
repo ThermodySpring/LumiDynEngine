@@ -76,6 +76,8 @@ namespace LumiDynEngine {
 		VkFormat swapChainImageFormat;
 		VkExtent2D swapChainExtent;
 
+		std::vector<VkImageView> swapChainImageViews;
+
 		struct SwapChainSupportDetails {
 			VkSurfaceCapabilitiesKHR capabilities;
 			std::vector<VkSurfaceFormatKHR> formats;
@@ -104,6 +106,7 @@ namespace LumiDynEngine {
 		int rateDeviceSuitability(VkPhysicalDevice device);
 		void createLogicalDevice();
 		void createSwapChain();
+		void createImageViews();
 
 		// QueueFamilies
 		QueueFamilyIndices findQueueFamilies(VkPhysicalDevice device);
@@ -125,6 +128,7 @@ namespace LumiDynEngine {
 		void cleanupInstance();
 		void cleanupSurface();
 		void cleanupSwapChain();
+		void cleanupImageViews();
 
 		bool isDeviceSuitable(VkPhysicalDevice device);
 		bool checkDeviceExtensionSupport(VkPhysicalDevice device);
