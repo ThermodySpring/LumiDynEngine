@@ -140,13 +140,13 @@
   <ItemGroup>
     <ClInclude Include="AppBase.h" />
     <ClInclude Include="FileUtils.h" />
-    <ClInclude Include="VulkanInstance.h" />
+    <ClInclude Include="InstanceManager.h" />
+    <ClInclude Include="QueueFamilyIndices.h" />
     <ClInclude Include="AppWindow.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Base.frag" />
-    <None Include="Base.vert" />
-    <None Include="simple_shader.glsl" />
+    <None Include="shaders\base\base.frag.spv" />
+    <None Include="shaders\base\base.vert.spv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

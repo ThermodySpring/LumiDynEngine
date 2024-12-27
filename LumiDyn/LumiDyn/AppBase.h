@@ -30,8 +30,13 @@
 #include "FileUtils.h"
 #include <optional>
 
+#include "InstanceManager.h"
+
+
 
 namespace LumiDynEngine {
+
+	const int MAX_FRAMES_IN_FLIGHT = 2;
 	
 	const std::vector<const char*> deviceExtensions = {
 		VK_KHR_SWAPCHAIN_EXTENSION_NAME
@@ -39,6 +44,8 @@ namespace LumiDynEngine {
 
 	class AppBase {
 	public:
+
+		Vulkan::InstanceManager instanceManager;
 		// window 관련 variable들
 		
 		int m_screenWidth;
@@ -75,8 +82,15 @@ namespace LumiDynEngine {
 		std::vector<VkImage> swapChainImages;
 		VkFormat swapChainImageFormat;
 		VkExtent2D swapChainExtent;
-
 		std::vector<VkImageView> swapChainImageViews;
+		std::vector<VkFramebuffer> swapChainFramebuffers;
+
+		// command
+		VkCommandPool commandPool;
+		VkCommandBuffer commandBuffer;
+		std::vector<VkCommandBuffer> commandBuffers;
+
+
 
 		struct SwapChainSupportDetails {
 			VkSurfaceCapabilitiesKHR capabilities;
@@ -84,6 +98,24 @@ namespace LumiDynEngine {
 			std::vector<VkPresentModeKHR> presentModes;
 		};
 
+		VkRenderPass renderPass;
+		VkPipelineLayout pipelineLayout;
+
+		VkPipeline graphicsPipeline;
+
+
+		// Drawing 
+		// Sync
+		VkSemaphore imageAvailableSemaphore;
+		VkSemaphore renderFinishedSemaphore;
+		VkFence inFlightFence;
+		std::vector<VkSemaphore> imageAvailableSemaphores;
+		std::vector<VkSemaphore> renderFinishedSemaphores;
+		std::vector<VkFence> inFlightFences;
+
+
+		// track frame
+		uint32_t currentFrame = 0;
 
 	public:
 		AppBase(); // constructor
@@ -103,10 +135,25 @@ namespace LumiDynEngine {
 
 		void CreateInstance();
 		void pickPhysicalDevice();
-		int rateDeviceSuitability(VkPhysicalDevice device);
 		void createLogicalDevice();
 		void createSwapChain();
 		void createImageViews();
+		void createRenderPass();
+
+		// Drawing
+		void createFramebuffers();
+
+		// Command
+		void createCommandPool();
+		void createCommandBuffers();
+		void recordCommandBuffer(VkCommandBuffer commandBuffer, uint32_t imageIndex);
+
+		// Rendering and Presentation 
+		void createSyncObjects();
+
+		std::vector<const char*> getRequiredExtensions();
+		int rateDeviceSuitability(VkPhysicalDevice device);
+
 
 		// QueueFamilies
 		QueueFamilyIndices findQueueFamilies(VkPhysicalDevice device);
@@ -129,12 +176,21 @@ namespace LumiDynEngine {
 		void cleanupSurface();
 		void cleanupSwapChain();
 		void cleanupImageViews();
+		void cleanupFrameBuffers();
+		void cleanupCommandPool();
+		void claenupSyncObjects();
+
+		
+
 
 		bool isDeviceSuitable(VkPhysicalDevice device);
 		bool checkDeviceExtensionSupport(VkPhysicalDevice device);
 
 		
 		void Update();
+
+		//mainLoop Function;
+		void drawFrame();
 
 		// App Basic Function;
 		void Initialization(); // 초기화

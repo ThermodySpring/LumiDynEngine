@@ -16,6 +16,9 @@
     <Filter Include="shaders">
       <UniqueIdentifier>{33f9ffbb-3949-49c3-8c9e-57a0e24d1e8e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="shaders\base">
+      <UniqueIdentifier>{7370499b-7322-46ce-b699-4e7fc9ef1289}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -41,19 +44,19 @@
     <ClInclude Include="AppWindow.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="VulkanInstance.h">
+    <ClInclude Include="InstanceManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueFamilyIndices.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="simple_shader.glsl">
-      <Filter>shaders</Filter>
+    <None Include="shaders\base\base.frag.spv">
+      <Filter>shaders\base</Filter>
     </None>
-    <None Include="Base.vert">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="Base.frag">
-      <Filter>shaders</Filter>
+    <None Include="shaders\base\base.vert.spv">
+      <Filter>shaders\base</Filter>
     </None>
   </ItemGroup>
 </Project>
