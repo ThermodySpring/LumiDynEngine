@@ -1,6 +1,8 @@
 #include "AppBase.h"
 
 
+
+
 namespace LumiDynEngine {
 
 	// Main Window 생성 관련
@@ -8,6 +10,7 @@ namespace LumiDynEngine {
 	// App Constructor
 	AppBase::AppBase() : m_screenWidth(1280), m_screenHeight(720), 
 	 windowName("Test"), m_window(0) {
+
 	
 	};
 
@@ -828,16 +831,22 @@ for (auto framebuffer : swapChainFramebuffers) {
 		currentFrame = (currentFrame + 1) % MAX_FRAMES_IN_FLIGHT;
 	}
 
-
+	void AppBase::UpdateGUI() {
+		ImGui::SliderInt("Alpha", &test, 0, 100);
+	}
 
 	int AppBase::Run() {
 
 		while (!ShouldClose()) {
 			glfwPollEvents();
+
+			// GUI 업데이트
+			//UpdateGUI();
+
+			// Vulkan 명령 버퍼에 ImGui 렌더링 포함
 			drawFrame();
 		}
 
-		
 		return 1;
 	};
 

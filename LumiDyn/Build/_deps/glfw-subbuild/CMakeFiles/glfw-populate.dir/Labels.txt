@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/121924bae4a5991cfcf587d6a302c89e/glfw-populate.rule
+C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/606857ddeda05312cddd7b2e8b7aaf42/glfw-populate-complete.rule
+C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-build.rule
+C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-configure.rule
+C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-download.rule
+C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-install.rule
+C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-mkdir.rule
+C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-patch.rule
+C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-test.rule
+C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-update.rule

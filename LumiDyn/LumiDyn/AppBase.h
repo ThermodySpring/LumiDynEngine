@@ -14,6 +14,10 @@
 
 #undef max
 
+#include "imgui.h"
+#include "imgui_impl_glfw.h"
+#include "imgui_impl_vulkan.h"
+
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -117,6 +121,9 @@ namespace LumiDynEngine {
 		// track frame
 		uint32_t currentFrame = 0;
 
+		// For GUI
+		int test;
+
 	public:
 		AppBase(); // constructor
 		virtual ~AppBase(); // desctructor
@@ -188,6 +195,7 @@ namespace LumiDynEngine {
 
 		
 		void Update();
+		void UpdateGUI();
 
 		//mainLoop Function;
 		void drawFrame();

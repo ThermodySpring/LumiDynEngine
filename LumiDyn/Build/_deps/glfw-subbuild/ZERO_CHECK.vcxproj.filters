@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\USER\Desktop\Potfolio\LumiDynEngine\LumiDyn\Build\_deps\glfw-subbuild\CMakeFiles\121924bae4a5991cfcf587d6a302c89e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{352386E4-CF2D-37CF-81F8-4F641954AD83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

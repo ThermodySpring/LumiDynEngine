@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/121924bae4a5991cfcf587d6a302c89e/glfw-populate.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/606857ddeda05312cddd7b2e8b7aaf42/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/Potfolio/LumiDynEngine/LumiDyn/Build/_deps/glfw-subbuild/CMakeFiles/2cf20d7133d302ffc6e8d2dc28aca9d8/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}

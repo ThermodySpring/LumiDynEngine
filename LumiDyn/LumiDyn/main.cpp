@@ -3,6 +3,9 @@
 #include <iostream>
 #include <stdexcept>
 
+// Dear ImGui
+
+
 int main() {
 	LumiDynEngine::AppBase app;
 	if (!app.Initialize()) return -1;
